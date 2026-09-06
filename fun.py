@@ -274,3 +274,12 @@ def odd(list):
             l.append(i)
     return l
 print(odd([1,2,3,4,5,6,7,8,9,10]))
+
+
+def odd(list):
+    l=[]
+    for i in list:
+        if i%2!=0:
+            l.append(i)
+    return l
+print(odd([14,4,9,5,1.61,68.9,141,6,5,41]))
