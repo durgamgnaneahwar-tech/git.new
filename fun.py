@@ -259,3 +259,10 @@ def sum(a,b):
     return sum
 print(sum(2,5))
 
+def even(list):
+    l=[]
+    for i in list:
+        if i%2==0:
+            l.append(i)
+    return l
+print(even([1,2,3,4,5,6,7,8,9,10]))
